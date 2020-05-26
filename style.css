@@ -1,0 +1,146 @@
+@media screen and (min-width: 100px){
+
+html{
+	scroll-behavior: smooth;
+}
+
+#mybtn{
+	/* display: none; */
+	position: fixed;
+	bottom: 20px;  right: 40px;
+	z-index: 99;
+	border: none;
+	color: #fff;  background: #00abff;
+	padding: 10px;
+	border-radius: 5px;
+}
+#mybtn:hover{
+	background: #606060;
+}
+
+
+.font-div{
+	width: 213px;
+	padding: 88px;
+
+	
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 998px){
+	.font-div{
+		padding: 22.5px 0px !important;
+	}
+}
+
+
+.pricing{
+	width: 100%;
+	height: 100vh;
+	padding: 50px;  position: relative;
+
+}
+.pricing:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	background: linear-gradient(160deg,#16c9f6 45%,#fff 0%);
+}
+.money{
+	font-size: 30px;line-height: 1;
+	color: #606060;
+}
+
+.card{
+	transition: 0.4s ease;list-style: none;
+}
+.card:hover{transform: translateY(-5px);
+            box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.money{
+	color: #50d1c0;
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background: #fff;  padding: 25px 9px;
+	color: #50d1c0;
+}
+
+.card.body{
+	padding: 20px 0px;
+}
+.card-body li{
+	margin: 10px 0px;
+	font-weight: bold;   font-size: 15px;
+	line-height: 1.6;   color: #606060;
+}
+.card-footer{
+	background: white;
+	padding: 30px 0px;
+}
+.card-footer a{
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5px;  
+	padding: 6px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+}
+.card-footer a:hover{
+	color: #fff;  transform: scale(1.1);
+	background: #50d1c0;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 #50d1c0;
+	transition: 0.3s;
+}
+}
+
+
+.conta{
+	width: 100%;
+	height: 50%;
+}
+
+.button-style a{
+	color: white;
+	text-decoration: none;
+}
+
+.button-style a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.description{
+	font-size: 20px;
+}
+
+@media screen and (min-width: 320px){
+	.icon{
+		
+		display: flex;
+		flex-direction: column;
+
+	}
+	.ico{
+		padding-bottom: 20px;
+		padding-right: 10px;
+	}
+}
+
+
+a{
+	color: white;
+}
